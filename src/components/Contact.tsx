@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Mail, Linkedin, Phone, Copy, Check } from 'lucide-react';
 import ThreeDCard from './ThreeDCard';
+import scanMeImg from '../assets/images/Scan Me.jpg.png';
 
 export default function Contact() {
   const [copiedText, setCopiedText] = useState<string | null>(null);
@@ -120,7 +121,7 @@ export default function Contact() {
                   <div className="bg-white p-3 rounded-xl shadow-inner relative z-10 transition-transform duration-500 group-hover:scale-[1.03]">
                     <img
                       id="contact-qr-image"
-                      src="/src/assets/images/Scan Me.jpg.png"
+                      src={scanMeImg}
                       alt="Contact QR Code"
                       referrerPolicy="no-referrer"
                       className="w-full h-auto max-w-[180px] object-contain rounded-md"

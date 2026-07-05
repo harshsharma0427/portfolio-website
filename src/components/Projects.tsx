@@ -4,6 +4,11 @@ import { ArrowUpRight } from 'lucide-react';
 import ThreeDCard from './ThreeDCard';
 import FigmaModal from './FigmaModal';
 
+// Import project images
+import solesearchImg from '../assets/images/solesearch_mockup_v2_1783249680570.jpg';
+import flashspaceImg from '../assets/images/flash_space_mockup_v2_1783249693847.jpg';
+import findostImg from '../assets/images/findost_mockup_v2_1783249665720.jpg';
+
 export default function Projects() {
   const [selectedFigmaProject, setSelectedFigmaProject] = useState<{
     id: string;
@@ -17,7 +22,7 @@ export default function Projects() {
       title: 'SoleSearch',
       subtitle: 'Sneaker Discovery App',
       category: 'UI/UX Mobile Design',
-      image: '/src/assets/images/solesearch_mockup_v2_1783249680570.jpg',
+      image: solesearchImg,
       link: 'https://sole-search-one.vercel.app',
     },
     {
@@ -25,7 +30,7 @@ export default function Projects() {
       title: 'Flash Space',
       subtitle: 'Website Redesign',
       category: 'Web Redesign & Development',
-      image: '/src/assets/images/flash_space_mockup_v2_1783249693847.jpg',
+      image: flashspaceImg,
       link: 'https://flash-space.vercel.app',
     },
     {
@@ -33,7 +38,7 @@ export default function Projects() {
       title: 'FinDost',
       subtitle: 'Finance Management App',
       category: 'FinTech Mobile Application',
-      image: '/src/assets/images/findost_mockup_v2_1783249665720.jpg',
+      image: findostImg,
       link: '#contact',
       defaultFigmaUrl: 'https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F4uWDF8XWUZXTSWF4IisaiQ%2FSolesearch%3Fpage-id%3D125%253A53%26node-id%3D174-1908%26viewport%3D1153%252C-12115%252C0.34%26t%3DN51Ldpsf100O2cLd-1%26scaling%3Dscale-down%26content-scaling%3Dfixed',
     },

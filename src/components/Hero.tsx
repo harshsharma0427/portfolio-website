@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { ArrowUpRight, Download } from 'lucide-react';
+import harshImg from '../assets/images/harsh.png';
 
 interface HeroProps {
   onViewProjects: () => void;
@@ -102,7 +103,7 @@ export default function Hero({ onViewProjects }: HeroProps) {
               {/* Main Portrait */}
               <img
                 id="hero-portrait-image"
-                src="/src/assets/images/harsh.png"
+                src={harshImg}
                 alt="Harsh Sharma"
                 referrerPolicy="no-referrer"
                 className="w-full h-auto object-cover relative z-0 transition-all duration-700 group-hover:scale-[1.03]"
