@@ -77,8 +77,9 @@ export default function Hero({ onViewProjects }: HeroProps) {
             </button>
 
             <a
-              id="btn-download-resume"
-              href="#contact"
+             id="btn-download-resume"
+  href="/Harsh_Sharma_Resume.pdf"
+  download="Harsh_Sharma_Resume.pdf"
               className="px-8 py-3.5 rounded-full text-xs font-display font-semibold uppercase tracking-widest bg-transparent border border-neutral-800 text-neutral-300 hover:text-white hover:border-neutral-500 hover:bg-neutral-900/40 transition-all duration-300 flex items-center space-x-2"
             >
               <span>Download Resume</span>

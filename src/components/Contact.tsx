@@ -9,7 +9,7 @@ export default function Contact() {
 
   const contactInfo = [
     { type: 'email', value: 'harshaharma41@gmail.com', label: 'Primary Email', icon: <Mail size={14} /> },
-    { type: 'linkedin', value: 'https://linkedin.com/in/harshsharma', label: 'Linkdin', icon: <Linkedin size={14} />, displayValue: 'Linkdin' },
+    { type: 'linkedin', value: 'https://linkedin.com/in/harshsharma-uiux', label: 'Linkdin', icon: <Linkedin size={14} />, displayValue: 'Linkdin' },
     { type: 'phone', value: '+91 7015864011', label: 'Primary Phone', icon: <Phone size={14} /> },
     { type: 'email', value: 'harshsharma2004111@gmail.com', label: 'Secondary Email', icon: <Mail size={14} /> },
     { type: 'phone', value: '+91 7678280306', label: 'Secondary Phone', icon: <Phone size={14} /> },
